@@ -1,12 +1,44 @@
-#input-age-verification, #content{
+/* BASE STYLES
+  ====================================================================================== */
+
+/*
+  Major Sixth Modular Scale:
+  https://www.modularscale.com/?22&px&1.667
+*/
+
+html, #signup{
+  font-family: 'Oxanium', 'Open Sans';
+}
+#content{
+  text-align: center;
+}
+#input-age-verification{
   text-align: center;
 }
 input{
-  border-bottom: 2px;
+  background-color: #E27D60;
+  border-color: #E27D60;
+}
+label{
+  display: block;
+}
+#signup{
+  background-color: #116466;
+  border-color: #116466;
 }
 h1{
-
+  line-height: 1.2em;
+  font-size: 1.667em;
+  padding-top: 1.667em;
 }
+ol{
+  line-height: 1.667em;
+}
+p{
+  font-size: 0.8em;
+  line-height: 1.667em;
+}
+
 @media screen and (min-width: 480px) {
   #input-age-verification, #content {
     text-align: center;
