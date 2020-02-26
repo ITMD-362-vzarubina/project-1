@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+  <script src="js/site.js"></script>
 </head>
 <body>
   <main id="content">
@@ -25,7 +27,7 @@
       </li>
       <li id="input-email">
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" pattern="^.+@.+$" placeholder="">
+        <input type="email" name="email" id="email">
       </li>
       <li id="input-username">
         <label for="username">Username</label>
@@ -43,7 +45,7 @@
         <label for="age-verification-no">No<label/>
       </li>
       <li id="input-signup">
-        <input type="submit" name="signup" id="signup" value="Sign Up" />
+        <input type="submit" name="signup" id="signup" value="Sign Up" onclick="confirmation()"/>
       </li>
     </ol>
   </form>
