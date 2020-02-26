@@ -1,15 +1,17 @@
-
 #input-age-verification, #content{
   text-align: center;
 }
 input{
   border-bottom: 2px;
 }
-@media screen and (min-width: 570px) {
+h1{
+
+}
+@media screen and (min-width: 480px) {
   #input-age-verification, #content {
     text-align: center;
     margin: 3% auto 0 auto;
-    width: 65%;
+    width: 77%;
   }
   #signup {
     width: 30%;
@@ -18,7 +20,7 @@ input{
     font-size: 0.9em;
   }
 }
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 768px) {
   #input-age-verification, #content {
       text-align: center;
       margin: 3% auto 0 auto;
