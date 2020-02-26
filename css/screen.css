@@ -1,1 +1,30 @@
 
+#input-age-verification, #content{
+  text-align: center;
+}
+input{
+  border-bottom: 2px;
+}
+@media screen and (min-width: 570px) {
+  #input-age-verification, #content {
+    text-align: center;
+    margin: 3% auto 0 auto;
+    width: 65%;
+  }
+  #signup {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    font-size: 0.9em;
+  }
+}
+@media screen and (min-width: 770px) {
+  #input-age-verification, #content {
+      text-align: center;
+      margin: 3% auto 0 auto;
+      width: 65%;
+    }
+  #signup {
+    width: 26%;
+  }
+}
