@@ -16,5 +16,4 @@ function validateForm() {
     alert("Username must be filled out");
     return false;
   }
-
 }
