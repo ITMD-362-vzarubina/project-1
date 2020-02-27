@@ -27,6 +27,11 @@ label{
   border-color: #116466;
   color: white;
 }
+#signup:hover{
+  background-color: red;
+  border-color: red;
+  color: black;
+}
 h1{
   line-height: 1.2em;
   font-size: 1.667em;
@@ -47,7 +52,6 @@ img{
     display: inline-block;
     vertical-align: middle;
 }
-
 @media screen and (min-width: 480px) {
   #input-age-verification, #content {
     text-align: center;
@@ -76,7 +80,18 @@ img{
       margin: 3% auto 0 auto;
       width: 65%;
     }
-  #signup {
-    width: 26%;
+  h1{
+    line-height: 2.4em;
+    font-size: 3.334em;
   }
+  ol{
+    font-size: 1.667em;
+  }
+  p{
+    font-size: 1.2em;
+  }
+  #signup {
+    width: 25%;
+  }
+
 }
