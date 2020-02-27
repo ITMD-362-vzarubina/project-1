@@ -11,7 +11,7 @@
 </head>
 <body>
   <main id="content">
-  <form method="get" action="#null">
+  <form name="form1" method="post" action="confirmation.html" onsubmit="return validateForm()">
     <h1>Sign Up</h1>
     <p>
       Fill in the required information and then select "Sign Up"
@@ -45,7 +45,7 @@
         <label for="age-verification-no">No<label/>
       </li>
       <li id="input-signup">
-        <input type="submit" name="signup" id="signup" value="Sign Up" onclick="confirmation()"/>
+        <input type="submit" name="signup" id="signup" value="Sign Up" />
       </li>
     </ol>
   </form>
