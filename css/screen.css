@@ -5,14 +5,14 @@
   Major Sixth Modular Scale:
   https://www.modularscale.com/?22&px&1.667
 */
-
+body{
+  padding-bottom: 1.667em;
+  padding-top: 1.667em;
+}
 html, #signup{
   font-family: 'Oxanium', 'Open Sans';
 }
 #content{
-  text-align: center;
-}
-#input-age-verification{
   text-align: center;
 }
 input{
@@ -25,11 +25,11 @@ label{
 #signup{
   background-color: #116466;
   border-color: #116466;
+  color: white;
 }
 h1{
   line-height: 1.2em;
   font-size: 1.667em;
-  padding-top: 1.667em;
 }
 ol{
   line-height: 1.667em;
@@ -38,7 +38,10 @@ p{
   font-size: 0.8em;
   line-height: 1.667em;
 }
-
+img{
+  width: 100%;
+  background-size: cover;
+}
 @media screen and (min-width: 480px) {
   #input-age-verification, #content {
     text-align: center;
@@ -51,6 +54,15 @@ p{
     margin: 0 auto;
     font-size: 0.9em;
   }
+  main{
+    background-color: #FCE4D8;
+    border: 1px solid red;
+    box-shadow: 0 0 0.2222222222em 0.1111111111em grey;
+  }
+  form{
+    padding-bottom: 1.667em;
+  }
+
 }
 @media screen and (min-width: 768px) {
   #input-age-verification, #content {
