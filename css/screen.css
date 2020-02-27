@@ -42,6 +42,12 @@ img{
   width: 100%;
   background-size: cover;
 }
+.radio-input label, .radio-input input {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 @media screen and (min-width: 480px) {
   #input-age-verification, #content {
     text-align: center;
