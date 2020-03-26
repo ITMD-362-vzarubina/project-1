@@ -4,7 +4,6 @@
 */
 body{
   padding-bottom: 1.667em;
-  padding-top: 1.667em;
 }
 html, #signup{
   font-family: 'Oxanium', 'Open Sans';
@@ -89,20 +88,20 @@ img{
       width: 75%;
     }
   h1{
-    line-height: 2.4em;
-    font-size: 3.334em;
+    line-height: 1.8em;
+    font-size: 2.4em;
   }
   ol{
-    font-size: 1.667em;
+    font-size: 1.2em;
   }
   p{
-    font-size: 1.2em;
+    font-size: 1em;
   }
   #signup {
     width: 25%;
   }
   img{
-    height: 200px;
+    height: 150px;
     object-fit: cover;
   }
 }
