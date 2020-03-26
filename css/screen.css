@@ -42,7 +42,8 @@ p{
 }
 img{
   width: 100%;
-  background-size: cover;
+  height: 150px;
+  object-fit: cover;
 }
 .radio-input label, .radio-input input {
     float: none;
@@ -75,13 +76,17 @@ img{
   form{
     padding-bottom: 1.667em;
   }
+  img{
+    height: 150px;
+    object-fit: cover;
+  }
 }
 
 @media screen and (min-width: 768px) {
   #input-age-verification, #content {
       text-align: center;
       margin: 3% auto 0 auto;
-      width: 65%;
+      width: 75%;
     }
   h1{
     line-height: 2.4em;
@@ -95,5 +100,9 @@ img{
   }
   #signup {
     width: 25%;
+  }
+  img{
+    height: 200px;
+    object-fit: cover;
   }
 }
